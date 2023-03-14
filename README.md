@@ -1,6 +1,6 @@
 # Simulator-of-a-Traffic-Circle
 Simulator of a traffic circle that help predict congestion in a junction.
-The traffic circle in this case is actually described as squares that together make up a large square (which is the traffic circle) so that each square can contain up to one car. In other words, every such square must be mutually exclusive.
+The traffic circle in this case is actually described as squares that together makes up a large square (which is the traffic circle) so that each square can contain up to one car. In other words, every such square must be mutually exclusive.
 At each corner of the large square there are four car generators. Each of them generates a new car once in a randomized time according to a certain range. 
 A car will be able to enter the traffic circle under two conditions:
 1) A car that has been generated enters the circle only once the square to which it wants to enter.
